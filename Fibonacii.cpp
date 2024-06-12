@@ -14,7 +14,7 @@ int main(){
         a = b;
         b = ans;
     
-    cout << ans<<"The fibonacii series is";
+    cout << ans<<" ";
     }
     return 0;
 }
