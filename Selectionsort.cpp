@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//create function for sorting
 void selectionsort(int arr[],int size){
     for(int i=0;i<size-1;i++){
         int minindex=i;
@@ -8,10 +9,12 @@ void selectionsort(int arr[],int size){
                 minindex=j;
                 }
         }
+        // minimum index swap with array at index i
         swap(arr[minindex],arr[i]);
 
     }
 }
+//create function to print Array
 void printArray(int arr[],int size){
     for(int i=0;i<size;i++){
         cout<<arr[i]<<" ";
